@@ -1,5 +1,5 @@
 /**
-* Template Name: NiceRestaurant
+* Template Name: Mirissa Turtle Snorkeling Center
 * Template URL: https://bootstrapmade.com/nice-restaurant-bootstrap-template/
 * Updated: May 30 2025 with Bootstrap v5.3.6
 * Author: BootstrapMade.com
