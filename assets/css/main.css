@@ -470,7 +470,7 @@ h6 {
   color: var(--default-color);
   background-color: var(--background-color);
   font-size: 14px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   position: relative;
 }
 
@@ -569,8 +569,8 @@ h6 {
 }
 
 .footer .copyright {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: color-mix(in srgb, var(--default-color), transparent 95%);
 }
 
@@ -581,6 +581,16 @@ h6 {
 .footer .credits {
   margin-top: 6px;
   font-size: 13px;
+}
+
+.footer .logo {
+  line-height: 1;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer .logo img {
+  max-height: 100px;
 }
 
 /*--------------------------------------------------------------
@@ -1153,7 +1163,9 @@ section,
 }
 
 .about .features-section {
-  border-top: 1px solid color-mix(in srgb, var(--heading-color), transparent 80%);
+  border: 1px solid color-mix(in srgb, var(--heading-color), transparent 80%);
+  background-color: color-mix(in srgb, rgb(0, 78, 100), transparent 90%);
+  border-radius: 15px;
 }
 
 .about .features-section .feature-box {
@@ -2080,13 +2092,16 @@ section,
 }
 
 .location .cta-wrapper a.btn-contact {
-  background-color: transparent;
-  color: var(--accent-color);
-  border: 1px solid var(--accent-color);
+  font-size: 18px;
+  background-color: var(--contrast-color);
+  color: #25D366;
+  border: 2px solid #25D366;
 }
 
 .location .cta-wrapper a.btn-contact:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 85%);
+  background-color: #25D366;
+  color: var(--contrast-color);
+  border: 1px solid #25D366;
   transform: translateY(-2px);
 }
 
