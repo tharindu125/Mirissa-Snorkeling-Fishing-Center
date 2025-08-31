@@ -223,7 +223,7 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: rgba(0, 0, 0, 0.8);
+  --background-color: rgba(0, 1, 37, 0.72);
 }
 
 /*--------------------------------------------------------------
@@ -2693,4 +2693,53 @@ section,
 
 .whatsapp-button img:hover {
   transform: scale(1.1); /* Slightly larger on hover */
+}
+
+/* Gallery */
+.gallery-section .event-cta {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+  border-radius: 12px;
+  padding: 2.5rem;
+  margin-top: 3rem;
+  /* margin-bottom: 2rem; */
+}
+
+.gallery-section .event-cta h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--heading-color);
+}
+
+.gallery-section .event-cta p {
+  margin-bottom: 0;
+  font-size: 1.05rem;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+}
+
+.gallery-section .event-cta .btn-reserve {
+  display: inline-block;
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  transition: all 0.3s ease;
+}
+
+.gallery-section .event-cta .btn-reserve:hover {
+  background-color: color-mix(in srgb, var(--accent-color), #000 15%);
+  transform: translateY(-3px);
+}
+
+@media (max-width: 992px) {
+  .gallery-section .event-cta {
+    text-align: center;
+  }
+
+  .gallery-section .event-cta .col-lg-4 {
+    margin-top: 1.5rem;
+    text-align: center;
+  }
 }
