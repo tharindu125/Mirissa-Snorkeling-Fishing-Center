@@ -2743,3 +2743,32 @@ section,
     text-align: center;
   }
 }
+
+.package-highlights {
+  list-style: none;             /* Removes default dots */
+  padding-left: 0;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;                     /* Space between items */
+}
+
+.package-highlights li {
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;               /* Adjust text color if needed */
+  display: flex;
+  align-items: center;
+  gap: 8px;                     /* Space between icon & text */
+  background: rgba(255, 255, 255, 0.13);  /* Light transparent background */
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.package-highlights li:hover {
+  background: rgba(255, 245, 209, 0.334);
+  transform: translateX(5px);
+  cursor: pointer;
+}
+
