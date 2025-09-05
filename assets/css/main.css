@@ -532,6 +532,9 @@ h6 {
   margin-bottom: 30px;
 }
 
+/*  */
+
+
 .footer .footer-links ul {
   list-style: none;
   padding: 0;
@@ -566,6 +569,10 @@ h6 {
 
 .footer .footer-contact p {
   margin-bottom: 5px;
+}
+
+.footer .footer-contact li {
+  list-style-type: none;
 }
 
 .footer .copyright {
